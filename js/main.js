@@ -30,7 +30,7 @@ window.addEventListener('scroll', _.throttle(function() {
     });
 
     // 버튼 보이기!
-    gsap.to('#to-top', .2, {
+    gsap.to(toTopEl, .2, {
       x: 0
     });
 
@@ -42,7 +42,7 @@ window.addEventListener('scroll', _.throttle(function() {
     });
 
     // 버튼 숨기기!
-    gsap.to('#to-top', .2, {
+    gsap.to(toTopEl, .2, {
       x: 100
     });
   }
